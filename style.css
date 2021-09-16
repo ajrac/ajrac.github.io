@@ -41,3 +41,15 @@ a:hover{
 #navbar a:hover{
     color:red;
 }
+
+details > summary{
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+}
+.showhide-content{
+    background-color: rgb(77, 71, 71);
+    color:papayawhip;
+    border: 15px rgb(81, 241, 215) solid;
+}
