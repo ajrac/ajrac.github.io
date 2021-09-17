@@ -35,6 +35,9 @@ body{
     padding-right:12px;
 
 }
+a:visited{
+    color:rgb(61, 255, 61);
+}
 a:hover{
     color:red;
 }
@@ -53,3 +56,38 @@ details > summary{
     color:papayawhip;
     border: 15px rgb(81, 241, 215) solid;
 }
+.portfolio-items{
+    width:75%;
+    margin:auto;
+    background-color: rgb(77, 71, 71);
+    color:papayawhip;
+}
+
+.slideshow{
+    margin: 50px auto;
+    width:50%;
+}
+.image-box{
+    width:100%;
+}
+.btn{
+    border:4px rgb(228, 18, 200) solid;
+    outline:none;
+    background-color: rgb(208, 255, 98);
+    padding: 10px 30px;
+    font-size: 20px;
+    color:rgb(224, 31, 31);
+    cursor: pointer;
+    margin: 10px auto;
+}
+.btn:hover{
+    background-color: black;
+}
+.slideshow-image{
+        height: auto; 
+        width: auto; 
+        max-width: 450px; 
+        max-height: 450px;
+        border:5px rgb(124, 3, 172) solid;
+}
+
